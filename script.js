@@ -46,9 +46,9 @@ more.addEventListener("click", (e) => {
   document.scrollingElement.scrollTop = 1
 });
 
-(function titleScroller(text) {
-  document.title = text;
-  setTimeout(function () {
-    titleScroller(text.substr(1) + text.substr(0, 1));
-  }, 500);
-}("weirdbandkid, a Discord Bot Developer "));
+//(function titleScroller(text) {
+  //document.title = text;
+  //setTimeout(function () {
+    //titleScroller(text.substr(1) + text.substr(0, 1));
+  //}, 500);
+//}("weirdbandkid, a Discord Bot Developer "));
